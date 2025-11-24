@@ -45,11 +45,11 @@ python app.py
 ==============================
 ==============================
 
-step1:verifey you install python
+step1:verifey you install python.
 linux:sudo apt install python3
 Windows:install python make sure python have Path on windows
 ================================
-step2: make sure you install flask to run
+step2: make sure you install flask to run.
 flask:pip install flask
 ================================
 ste3: after finish you need to creat tunnel, you can use "cloudflared".
@@ -59,12 +59,14 @@ Linux:cloudflared distribution os amd64.exe
 make sure after download file rename file to *cloudflared*
 =================================
 ```step4:create file *cloudflared* on any OS
-Windows: create file *cloudflared* in C، move a file cloudflared.exe to cloudflared folder
-run:
+Windows: create file *cloudflared* in C، move a file cloudflared.exe to cloudflared folder.
+run:make sure use cmd for windows and Terminal for linux.
+CMD:use this code on CMD. 
 cd C:\
 cloudflared
 cloudflared.exe tunnel --url http://localhost:5000
 After finish you can found public url copy and send to any body
+Terminal:use this code on Terminal.
 Linux:put a file *cloudflared* in any folder on linux
 run:cloudflared tunnel --url http://localhost:5000
 Make sure use Terminal for this
