@@ -52,13 +52,13 @@ Windows:install python make sure python have Path on windows
 step2: make sure you install flask to run
 flask:pip install flask
 ================================
-ste3: after finish you need to creat tunnel, you can use "cloudflared"
+ste3: after finish you need to creat tunnel, you can use "cloudflared".
 cloudflared:https://github.com/cloudflare/cloudflared/releases
 Windows:cloudflared windows amd64.exe
 Linux:cloudflared distribution os amd64.exe
 make sure after download file rename file to *cloudflared*
 =================================
-step4:create file *cloudflared* on any OS
+```step4:create file *cloudflared* on any OS
 Windows: create file *cloudflared* in C، move a file cloudflared.exe to cloudflared folder
 run:
 cd C:\
