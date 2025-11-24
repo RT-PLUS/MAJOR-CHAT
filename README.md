@@ -33,7 +33,7 @@
 
 ### 🚀 **Quick Method (3 Steps):**
 
-```bash
+bash
 # 1. Install requirements
 pip install flask
 
@@ -58,15 +58,15 @@ Windows:cloudflared windows amd64.exe
 Linux:cloudflared distribution os amd64.exe
 make sure after download file rename file to *cloudflared*
 =================================
-step4:creat file name *cloudflared* on any OS
+step4:create file *cloudflared* on any OS
 Windows: create file *cloudflared* in C، move a file cloudflared.exe to cloudflared folder
 run:
 cd C:\
 cloudflared
 cloudflared.exe tunnel --url http://localhost:5000
-After finish you found public url copy and send to any body
-Linux:put a file *cloudflared.exe* in any folder on linux
+After finish you can found public url copy and send to any body
+Linux:put a file *cloudflared* in any folder on linux
 run:cloudflared tunnel --url http://localhost:5000
-==================================
+Make sure use Terminal for this
 ==================================
 MAJOR CHAT made with love and private, if there any bug or problem call me
